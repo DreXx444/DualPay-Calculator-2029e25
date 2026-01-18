@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>DualPay Calculator Pro</title>
+    <title>DualPay Calculator 2026</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
@@ -21,7 +21,6 @@
             margin: 0;
         }
 
-        /* Орнаменти - Светещи сфери */
         .orb {
             position: absolute;
             width: 50vw;
@@ -42,7 +41,6 @@
             100% { transform: scale(1.2); opacity: 0.5; }
         }
 
-        /* Анимирани символи */
         .bg-float { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2; }
         .float-item { 
             position: absolute; color: rgba(255, 255, 255, 0.1); 
@@ -54,7 +52,6 @@
             100% { transform: translateY(-10vh) rotate(360deg); opacity: 0; }
         }
 
-        /* Карта */
         .glass-card {
             background: rgba(255, 255, 255, 0.03);
             backdrop-filter: blur(25px);
@@ -87,7 +84,6 @@
 
         input { background: transparent; outline: none; width: 100%; color: white; border: none; }
         input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
-        
         select { cursor: pointer; }
     </style>
 </head>
@@ -103,7 +99,7 @@
                 <canvas id="appIcon" width="90" height="90" class="rounded-[2rem] shadow-2xl border border-white/20"></canvas>
                 <div class="absolute -inset-2 border border-blue-500/20 rounded-[2.2rem] animate-pulse"></div>
             </div>
-            <h1 class="font-['Comfortaa'] text-2xl font-bold mt-4 tracking-tight text-white">DualPay Pro</h1>
+            <h1 class="font-['Comfortaa'] text-2xl font-bold mt-4 tracking-tight text-white">DualPay 2026</h1>
         </header>
 
         <div class="space-y-4">
