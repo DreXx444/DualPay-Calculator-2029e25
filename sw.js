@@ -1,14 +1,40 @@
-const CACHE_NAME = 'dualpay-v3';
-const ASSETS = [
-    'index.html',
-    'manifest.json',
-    'https://cdn.tailwindcss.com'
-];
-
-self.addEventListener('install', (e) => {
-    e.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS)));
-});
-
-self.addEventListener('fetch', (e) => {
-    e.respondWith(caches.match(e.request).then((res) => res || fetch(e.request)));
-});
+{
+  "name": "DualPay Calculator 2026",
+  "short_name": "DualPay 26",
+  "description": "Калкулатор за ресто в Евро и Лева",
+  "id": "/DualPay-Calculator-2026/",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#05080f",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/10384/10384160.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/10384/10384160.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/10384/10384160.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "DualPay 2026 Desktop"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/10384/10384160.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "DualPay 2026 Mobile"
+    }
+  ]
+}
