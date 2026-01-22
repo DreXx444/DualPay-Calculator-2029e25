@@ -1,8 +1,8 @@
 {
   "name": "DualPay Calculator 2026",
   "short_name": "DualPay 26",
-  "description": "Професионален калкулатор за пресмятане на ресто в евро и лева.",
-  "id": "/",
+  "description": "Калкулатор за ресто в Евро и Лева",
+  "id": "/DualPay-Calculator-2026/",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#05080f",
@@ -23,18 +23,18 @@
   ],
   "screenshots": [
     {
-      "src": "https://www.gstatic.com/images/branding/product/2x/photos_96dp.png",
-      "sizes": "1280x720",
+      "src": "https://cdn-icons-png.flaticon.com/512/10384/10384160.png",
+      "sizes": "512x512",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "DualPay Desktop View"
+      "label": "DualPay 2026 Desktop"
     },
     {
-      "src": "https://www.gstatic.com/images/branding/product/2x/photos_96dp.png",
-      "sizes": "720x1280",
+      "src": "https://cdn-icons-png.flaticon.com/512/10384/10384160.png",
+      "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "DualPay Mobile View"
+      "label": "DualPay 2026 Mobile"
     }
   ]
 }
